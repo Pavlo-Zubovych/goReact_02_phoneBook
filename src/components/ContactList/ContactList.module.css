@@ -7,18 +7,19 @@
 .Item {
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
+  margin-right: 5px;
 }
 
-.Item:not(:last-child) {
+/* .Item:not(:last-child) {
   margin-bottom: 10px;
 }
+.Contact:not(:last-child) {
+  margin-right: 5px;
+} */
 
 .Contact {
   font-size: 16px;
-}
-
-.Contact:not(:last-child) {
-  margin-right: 5px;
 }
 
 .Button {

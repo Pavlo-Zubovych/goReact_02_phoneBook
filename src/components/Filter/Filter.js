@@ -9,7 +9,7 @@ const Filter = ({ value, onFindContact }) => {
       <input
         type="text"
         value={value}
-        clasName={styles.Input}
+        className={styles.Input}
         onChange={onFindContact}
       />
     </label>

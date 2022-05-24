@@ -2,13 +2,13 @@
   width: 400px;
   display: flex;
   flex-direction: column;
+  padding-left: 3px;
 }
 
 .Item {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
-  margin-right: 5px;
+  margin-top: 5px;
 }
 
 /* .Item:not(:last-child) {
@@ -20,6 +20,8 @@
 
 .Contact {
   font-size: 16px;
+  margin-right: 5px;
+  margin: 0 5px 0 0;
 }
 
 .Button {

@@ -9,8 +9,8 @@ const ContactList = ({ onFilteredContacts, onDeleteContact }) => {
       {/* <li>{console.log(onFilteredContactss)}</li> */}
       {onFilteredContacts.map(({ id, name, number }) => (
         <li key={id} className={styles.Item}>
-          <p className={styles.Contac}> {name}: </p>
-          <p className={styles.Contac}> {number} </p>
+          <p className={styles.Contact}> {name}: </p>
+          <p className={styles.Contact}> {number} </p>
 
           <button
             type="button"

@@ -19,5 +19,5 @@ const Filter = ({ value, onFindContact }) => {
 Filter.propType = {
   value: PropTypes.string,
 };
-
+// 1
 export default Filter;
